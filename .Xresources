@@ -1,3 +1,22 @@
+! Author: philosophos<philosoph@yeah.net>
+! GitHub: https://github.com/philosophos/Xresources
+!##########################################################
+!xft
+!
+!urxvt
+!scroll
+!color
+!font
+!cursor&pointer
+!select&perl-ext
+!other
+!
+!XTERM
+!Application:Resources
+!VT100:Widget Resources
+!color255:true
+!Scrollbar_Resources
+!XTerm_VT100_translations_#override \n\
 !##########################################################
 !xft
 xft.rbga:rbg
@@ -354,12 +373,13 @@ XTerm*scrollBar:true
 !XTerm*ximFont:
 
 !!##########################################################
-!!Scrollbar:Resources
+!!Scrollbar_Resources
 XTerm*thickness:8
 XTerm.Scrollbar.background:#000000
 XTerm.Scrollbar.foreground:#333333
 
 !!##########################################################
+!XTerm_VT100_translations_#override \n\
 
 !XTerm.VT100*translations:#override \n\
 !    Shift<KeyPress>Insert:insert-selection(CLIPBOARD,CUT_BUFFER1)\n\
